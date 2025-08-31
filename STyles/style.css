@@ -1,0 +1,16 @@
+#elementor-icon{
+    background-color: #1db4cf;
+}
+
+
+#nosebro:hover{
+    color: #1db4cf;
+    text-decoration-color: #1db4cf;
+}
+
+.nosebro{
+    padding-right: 20px;
+    width: 1.25em;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
