@@ -13,7 +13,6 @@
     width: 1.25em;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-
 }
 
 #bro {
@@ -37,6 +36,35 @@
 #idk {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementor-widget-container1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* Hace el div circular */
+    overflow: hidden;
+    /* Oculta lo que sobresalga */
+    display: flex;
+    /* Centrado de la imagen */
+    align-items: center;
+    justify-content: center;
+}
+
+#ahhimg {
+    max-width: 100%;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    /* Ajusta la imagen sin deformarla */
+}
+
+#ahhimg1 {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
